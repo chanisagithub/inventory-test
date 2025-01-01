@@ -39,7 +39,7 @@ const AddItem = () => {
             }
 
             const result = await response.json();
-            setMessage("Item added successfully!");
+            setMessage("Item added successfully");
             setItem({ name: "", quantity: "", price: "" });
         } catch (error) {
             setMessage(error.message);
