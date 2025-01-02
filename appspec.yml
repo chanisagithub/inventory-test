@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: target/myapp.jar
+  - source: /
     destination: /var/www/inventory-test
 hooks:
   AfterInstall:
