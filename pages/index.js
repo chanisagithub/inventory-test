@@ -20,7 +20,7 @@ export default function Home() {
       <style jsx>{`
         main {
           padding: 5rem 0;
-          flex: 1;
+          flex: 2;
           display: flex;
           flex-direction: column;
           justify-content: center;
